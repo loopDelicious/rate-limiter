@@ -37,8 +37,8 @@ app.post('/', async (req, res) => {
       res.status(429).send('Too many requests - try again later')
       return
     }
-    // allow access to whatever resources you want
-    res.send("Accessed my precious")
+    // allow access to resources 
+    res.send("Accessed precious resources!")
   })
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))

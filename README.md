@@ -4,10 +4,10 @@ Install the dependencies
 
     npm install
 
+Start the Redis server
+
+    redis-server
+
 Start the app server
 
     node index.js
-
-Start the Redis server
-
-   redis-server
